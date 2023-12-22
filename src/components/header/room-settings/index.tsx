@@ -83,10 +83,6 @@ const RoomSettings = () => {
 
   const displayBottomText = () => {
     let text = copyright_conf?.display ? `${copyright_conf?.text}&nbsp;` : '';
-    text += t('plugnmeet-server-client-version', {
-      server: serverVersion,
-      client: PNM_VERSION,
-    });
     return (
       <div
         className="absolute inset-x-0 bottom-0 text-center text-xs dark:text-darkText"

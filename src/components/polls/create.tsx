@@ -103,7 +103,7 @@ const Create = () => {
           value={question}
           required={true}
           onChange={(e) => setQuestion(e.currentTarget.value)}
-          placeholder="Ask a question"
+          placeholder="请输入问题"
           className="text-black placeholder:text-black/50 py-2 px-4 text-base w-full border border-solid border-primaryColor outline-none rounded-lg mb-4 bg-transparent dark:border-darkText dark:text-darkText placeholder:text-darkText"
         />
         <div className="flex items-start justify-between pb-2 pt-4 border-t border-solid border-primaryColor/20 dark:border-darkText/30">

@@ -98,7 +98,7 @@ const initialState: ISession = {
       },
       copyright_conf: {
         display: true,
-        text: 'Powered by <a href="https://www.plugnmeet.org" target="_blank">plugNmeet</a>',
+        text: '',
       },
     },
   },

@@ -185,9 +185,7 @@ const RtmpModal = () => {
                               }
                               value={provider}
                             >
-                              <option value="youtube">YouTube</option>
-                              <option value="facebook">Facebook</option>
-                              <option value="other">Other</option>
+                              <option value="other">腾讯云</option>
                             </select>
                           </div>
                           {showServerUrl ? (
